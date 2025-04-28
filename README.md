@@ -11,7 +11,7 @@ It will predict all images in input_image folder and save the result as output.p
 ```bash
 python image.py --mode train --ann_id 1
 ```
---mode ["train", "test"] (test dataset has unseen images)
+--mode ["train", "test"] (test dataset has unseen images) | 
 --ann_id for:
 train: 1-23700; 
 test: 1-788
